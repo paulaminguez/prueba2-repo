@@ -24,4 +24,6 @@ op.1.) git pull master
 
 para borrar branch --> git branch -d feature-readme-instructions
 
-git diff allows you to see changes since your last commit
+git diff allows you to see changes since your last commit 
+
+tmb puedes hacer git diff desde una rama a otra para ver las diferencias entre branches antes de hacer un merge: e.g estando en branch 1--> git merge master
