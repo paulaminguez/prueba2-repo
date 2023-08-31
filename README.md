@@ -8,3 +8,7 @@ Después de crear el repositorio no puedes hacer un add, commit, push y listo, l
 
 - Creando un nuevo repositorio en github q se llame prueba2-repo. Luego haremos git remote add prueba2-repo https://github.com/paulaminguez/prueba2-repo.git and then push using the remote name "git push prueba2-repo"...
 
+
+Para ver las ramas del repo --> git branch
+Para crear nuevo branch --> git checkout -b feature-readme-instructions
+Para cambiar a otra branch --> git checkout master
