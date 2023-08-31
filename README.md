@@ -9,6 +9,8 @@ Después de crear el repositorio no puedes hacer un add, commit, push y listo, l
 Creando un nuevo repositorio en github q se llame prueba2-repo. Luego haremos git remote add prueba2-repo https://github.com/paulaminguez/prueba2-repo.git and then push using the remote name "git push prueba2-repo"...
 
 
+*BASICS OF BRANCHING, MERGING, UNDOING, COMMIT SAVING* 
+
 Para ver las ramas del repo --> git branch 
 
 Para crear nuevo branch --> git checkout -b feature-readme-instructions 
@@ -27,3 +29,11 @@ para borrar branch --> git branch -d feature-readme-instructions
 git diff allows you to see changes since your last commit 
 
 tmb puedes hacer git diff desde una rama a otra para ver las diferencias entre branches antes de hacer un merge: e.g estando en branch 1--> git merge master
+
+HEAD means "last commit", so --> git reset HEAD~1 --> ir un commit anterior al recién hecho
+
+git log--> ver historial de commits --> para salir de esta lista scroll down con space bar y luego quit (q)
+
+para ir a un commit concreto se puede hacer: git reset <hash concreto del commit>
+
+para ir a un commit concreto y hacer que los cambios posteriores no solo no apliquen sino que se borren completamente: git reset --hard <hash del commit>
