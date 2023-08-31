@@ -23,3 +23,5 @@ op.1.) git pull master
 
 
 para borrar branch --> git branch -d feature-readme-instructions
+
+git diff allows you to see changes since your last commit
